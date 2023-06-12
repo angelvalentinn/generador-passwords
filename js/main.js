@@ -12,6 +12,11 @@ addEventListener('DOMContentLoaded', () => {
 
     mostrarPassword.innerText = password;
 
+    btnRegenerar.addEventListener('click', () => {
+        password = generarPassword(10).join("");
+        mostrarPassword.innerText = password;
+    })
+
     inputRango.addEventListener('input', e => {
         const valueInput = e.target.value;
 
