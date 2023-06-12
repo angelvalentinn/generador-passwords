@@ -1,0 +1,1 @@
+Generador de passwords ramdoms de una longitud entre 4 y 30 valores.
